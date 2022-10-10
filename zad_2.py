@@ -1,4 +1,3 @@
-
 def zad_2a(five_names_list):
     for i in five_names_list:
         print(i)
@@ -14,12 +13,17 @@ def zad_2c(c):
         if(i%2 == 0):
             print(i)
 def zad_2d(d):
-    isEverySecond = True
+    isEverySecond = False
     for i in d:
         if(isEverySecond):
             print(i)
             isEverySecond = False
         else: isEverySecond = True
 a = [item for item in range(0, 10)]
+b = [item for item in range(0, 5)]
+c = ["a","b","a","b","a"]
+zad_2a(c)
+zad_2bV1(b)
+zad_2bV2(b)
+zad_2c(a)
 zad_2d(a)
-print()
